@@ -1,0 +1,329 @@
+a{
+    text-decoration: none;
+}
+
+/* 顶部背景颜色 */
+.dingbu{
+        background: #444;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+}
+/* 顶部文字样式 */
+.gg{
+    color: #a8a8aa;
+    font-size: 12px;
+    float: right;
+}
+/* 导航栏模块 */
+.dh{
+        background: rgba(0, 0, 0, 0.92);
+        width: 100%;
+        height: 52px;
+        position: relative;
+}
+.fud{
+    /* 浮动盒子 */
+    display: flex;
+    /* 盒子左右靠边其他的盒子自动居中 */
+    justify-content: space-between;
+    position: relative;
+}
+.fud a{
+    text-decoration: none;
+    color: #8a8a8a;
+}
+.fud div {
+    width: 11%;
+    height: 44px;
+    line-height: 52px;
+    color: #8a8a8a;
+    text-align: center;
+    cursor: pointer;
+    /*鼠标 光标小手*/
+}
+.fud div img {
+    width: 25px;
+    height: 25px;
+    color: #8a8a8a;
+}
+/* 搜索框模块 */
+.SearchBox{
+    width: 682px;
+    height: 52px;
+    background: rgba(0, 0, 0, 0.92);
+    position: absolute;
+    top: 0;
+    left: 25%;
+    line-height: 52px;
+    display: none;
+
+}
+.SearchBox span{
+    width: 38px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px;
+    margin-left: 20px;
+    color: #8a8a8a;
+}
+.SearchBox input{
+    height: 52px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.92);
+    z-index: 99999;
+    position: relative;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    outline: none;/* 去除点击边框颜色 */
+}
+.SearchBox p{
+    height: 52px;
+    width: 100%;
+    color: #8a8a8a;
+    font-size: 25px;
+    cursor: pointer;/*鼠标 光标小手*/
+    position: relative;
+    z-index: 99999;
+}
+/* 点击搜索模块 */
+#search {
+    width: 682px;
+    height: 240px;
+    background: #fff;
+    border-top: none;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    color: #86868b;
+    position: absolute;
+    left: 25%;
+    z-index: 9999;
+    display: none;
+}
+.search{
+    cursor: default; /* 鼠标正常状态 */
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+.searchUl>li{
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 60px;
+    cursor: pointer;/*鼠标 光标小手*/
+    display: block;
+}
+.searchUl a{
+    text-decoration: none;
+    color: #1d1d1f;
+    font-size: 13px;
+    display: inline-block;
+}
+/* 购物袋模块 */
+.Shopping{
+    background:#fff;
+    border: 1px solid #d2d2d7;
+    border-radius: 18px;
+    display: none;
+    width: 286px;
+    height: 305px;
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+.ShoppingBox{
+    width: 246px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 auto;
+    color: #6e6e73;
+    font-size: 13px;
+}
+.Shopping>ul li{
+    height: 44px;
+    line-height: 44px;
+    width: 246px;
+    margin: 0 auto;
+    border-top: 1px solid #d2d2d7;
+}
+.Shopping>ul img{
+    width: 20px;
+    height: 20px;
+}
+.Shopping>ul a{
+    color: #1296db;
+    font-size: 13px;
+}
+.Shopping>ul span{
+    margin-left: 15px;
+}
+.ShoppingImg{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -8px;
+    right: 143px;
+}
+/* 导航栏下面文字模块 */
+.DhText{
+    height: 44px;
+    background: #f5f5f7;
+    line-height: 44px;
+
+}
+/* iPhone12 模块 */
+.iPhone12 {
+    width: 100%;
+    height: 500px;
+    cursor: pointer;/*鼠标 光标小手*/
+    background-image: url(../images/iphone_12__ejhnn79bn1me_large2.png);
+    /* background-size调整背景图片的大小，第一个参数值是宽度，第二个参数值是高度 */
+    background-size: 100% 100%;
+}
+
+.iPhone12 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.iPhone12 h4 {
+    padding-top: 10px;
+}
+
+.iPhone12 p {
+    color: #86868b;
+    padding-top: 2px;
+}
+/* iPhone12 pro模块 */
+.iPhone12-pro {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    /*鼠标 光标小手*/
+    background-image: url(../images/iphone_12_pro_us__e5oyysg4k0ya_large.jpg);
+    /* background-size调整背景图片的大小，第一个参数值是宽度，第二个参数值是高度 */
+    background-size:100% 100%;
+}
+.iPhone12-pro h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color:#F5F5F7;
+    padding-top: 30px;
+}
+.iPhone12-pro h3{
+    color:#F5F5F7;
+}
+.iPhone12-pro h4{
+    padding-top: 10px;
+}
+.iPhone12-pro p {
+    color: #86868b;
+    padding-top: 2px;
+}
+/* iPid Air 模块 */
+.iPid-Air {
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    /*鼠标 光标小手*/
+    background-image: url(../images/hero__dvsxv8smkkgi_large1.png);
+    /* background-size调整背景图片的大小，第一个参数值是宽度，第二个参数值是高度 */
+    background-size: 100% 100%;
+}
+
+.iPid-Air h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+/* 产品介绍模块 */
+.row{
+    border:none;
+    margin: 0px;
+    cursor: pointer;
+    /*鼠标 光标小手*/
+}
+.box{
+    border:  5px solid white;
+}
+.logo{
+    margin-top: 40px;
+}
+.logoH5{
+    margin-top: 20px;
+}
+/* 全局遮挡层 */
+#body{
+    background: rgba(0, 0, 0, 0.48);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    display: none;
+}
+/* 底部背景 */
+.bottomBackground{
+    background: #f5f5f7;
+    height: 900px;
+    margin-top: 10px;
+}
+/* 底部内容模块 */
+.content{
+    margin-top: 20px;
+}
+.content span{
+    font-size: 12px;
+    color: #86868b;
+}
+.content>span p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.contentBox{
+    height: 332px;
+    border-top: 1px solid #d2d2d7;
+    margin-top: 20px;
+}
+.contentBoxRow div{
+    margin-right: 25px;
+    padding-left: 0px;
+    height: 312px;
+}
+.contentBoxRow ul{
+    margin-top: 20px;
+    color: black;
+    font-size: 12px;
+    width: 100%;
+    height: 312px;
+}
+.contentBoxRow li{
+    width: 100%;
+    height: 16px;
+    margin: 12px;
+    cursor: default;/* 鼠标正常状态 */
+}
+.contentBoxRow a{
+    font-size: 10px;
+    color: #515154;
+    cursor: pointer;/*鼠标 光标小手*/
+}
+/* 底部联系方式模块 */
+.contact{
+    margin-top: 70px;
+    height: 25px;
+    border-bottom: 1px solid #d2d2d7;
+
+}
+.contact p{
+    font-size: 12px;
+    color: #86868b;
+}
